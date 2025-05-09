@@ -420,7 +420,7 @@ nav ul li a.active::after {
 }
 
 .video-container {
-    height: 300px; /* same as your PDF tiles */
+    height: 350px; /* same as your PDF tiles */
     overflow: hidden;
     background-color: var(--light-gray);
     display: flex;
@@ -454,10 +454,13 @@ nav ul li a.active::after {
 
 /* Video and PDF containers */
 .video-container {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    height: 0;
+    height: 350px; /* same as your PDF tiles */
     overflow: hidden;
+    background-color: var(--light-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius-md) var(--border-radius-md) 0 0;
 }
 
 .video-container video {
