@@ -677,3 +677,11 @@ html {
     scroll-behavior: smooth;
     scroll-padding-top: 100px;
 }
+
+/* —— Portfolio section note styling —— */
+.portfolio-note {
+  margin: var(--spacing-lg) 0;
+  text-align: center;
+  font-style: italic;
+  color: var(--text-color);
+}
